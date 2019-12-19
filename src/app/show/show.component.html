@@ -1,0 +1,6 @@
+<ul *ngFor ="let c of list">
+    <li [class.text-success]="c.country === 'IND'"
+    [class.primary]="c.country === 'Aus'">
+    I am {{c.name}} and from {{c.country}}
+</li>
+</ul>
